@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638000847460000000
-    m_Hash: 1623562247
+      ticks: 638001948520000000
+    m_Hash: 1633716443
   m_LockFileStatus:
     m_FilePath: D:/programs/Tutorial1.5/Tutorial1.5/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638000848580000000
-    m_Hash: 2580061619
+      ticks: 638001948520000000
+    m_Hash: 2163489491
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -230,103 +230,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 3.7.5
-    nextVersion: 
-- packageId: com.unity.analytics@3.6.12
-  testable: 0
-  isDirectDependency: 1
-  version: 3.6.12
-  source: 1
-  resolvedPath: D:\programs\Tutorial1.5\Tutorial1.5\Library\PackageCache\com.unity.analytics@3.6.12
-  assetPath: Packages/com.unity.analytics
-  name: com.unity.analytics
-  displayName: Analytics Library
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: The Unity Analytics Library contains the Analytics Event Tracker component,
-    the Data Privacy plug-in, and the Standard Events API.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.0.3
-    - 0.0.4
-    - 0.0.5
-    - 0.0.7
-    - 0.0.8
-    - 0.0.9
-    - 0.0.10
-    - 0.0.11
-    - 0.0.12
-    - 0.0.13
-    - 0.0.14
-    - 0.0.15
-    - 0.0.16
-    - 0.0.17
-    - 0.0.19
-    - 2.0.5
-    - 2.0.11
-    - 2.0.13
-    - 2.0.14
-    - 2.0.15
-    - 2.0.16
-    - 3.0.5
-    - 3.0.9
-    - 3.1.1
-    - 3.2.0
-    - 3.2.2
-    - 3.2.3
-    - 3.3.0
-    - 3.3.2-preview
-    - 3.3.2
-    - 3.3.4
-    - 3.3.5
-    - 3.4.0
-    - 3.5.3
-    - 3.6.11
-    - 3.6.12
-    - 3.7.1
-    - 3.8.1
-    compatible:
-    - 3.6.12
-    - 3.7.1
-    - 3.8.1
-    verified: 3.6.12
-  dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  keywords:
-  - analytics
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637692274360000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.analytics.git
-    revision: 16fe75b69f168b066926595ade9b0473c3b32c5f
-    path: 
-  unityLifecycle:
-    version: 3.6.12
     nextVersion: 
 - packageId: com.unity.collab-proxy@1.17.1
   testable: 0
@@ -1532,10 +1435,35 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
     - 2.1.9
+    - 2.1.10
     compatible:
     - 2.1.9
-    verified: 2.1.9
+    - 2.1.10
+    verified: 2.1.10
   dependencies:
   - name: com.unity.modules.vr
     version: 1.0.0
@@ -1567,7 +1495,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637812095140000000
   documentationUrl: 
   hasRepository: 1
   repository:

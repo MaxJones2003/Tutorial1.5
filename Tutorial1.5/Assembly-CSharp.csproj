@@ -36,7 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\sounds.cs" />
+     <Compile Include="Assets\Scripts\CatController.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2021.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -286,12 +286,6 @@
     <Reference Include="Newtonsoft.Json">
         <HintPath>D:\programs\Tutorial1.5\Tutorial1.5\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-        <HintPath>D:\programs\Tutorial1.5\Tutorial1.5\Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-        <HintPath>D:\programs\Tutorial1.5\Tutorial1.5\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
         <HintPath>D:\programs\Tutorial1.5\Tutorial1.5\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
@@ -306,9 +300,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>D:\programs\Tutorial1.5\Tutorial1.5\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-        <HintPath>D:\programs\Tutorial1.5\Tutorial1.5\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity 2021.3.8f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -721,17 +712,11 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>D:\programs\Tutorial1.5\Tutorial1.5\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Analytics">
-        <HintPath>D:\programs\Tutorial1.5\Tutorial1.5\Library\ScriptAssemblies\Analytics.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
         <HintPath>D:\programs\Tutorial1.5\Tutorial1.5\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:\programs\Tutorial1.5\Tutorial1.5\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-        <HintPath>D:\programs\Tutorial1.5\Tutorial1.5\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
         <HintPath>D:\programs\Tutorial1.5\Tutorial1.5\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
