@@ -6,11 +6,13 @@ TagManager:
   tags:
   - coin
   - ground
+  - bounce
+  - enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ground
   - Water
   - UI
   - 

@@ -334,6 +334,12 @@ struct IList_1_t09217E1EDF7CCAED72B667F406AAC92AB64B8790;
 struct IList_1_t1E95A05AFA88C09BA96A40B431F7D5867BD0D622;
 // System.Collections.Generic.IList`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo>
 struct IList_1_tCFDE4BD8548909F112CB197B5B2C3F1211D52014;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.ValueTuple`2<System.Type,System.String>,System.Runtime.InteropServices.ICustomMarshaler>
+struct KeyCollection_t4CC8E3078324CFF9AC51FF4975E187A84147C32F;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Resources.ResourceLocator>
+struct KeyCollection_t92027B3C658FDE21AADC2106DC2DF21946DD35E1;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Resources.ResourceSet>
+struct KeyCollection_tC2D1627929EE084C92A9997D742C9F98E2B4453C;
 // System.Collections.Generic.List`1<System.Threading.IAsyncLocal>
 struct List_1_tA7C2A3DF62733E04DA16EDD931856E01BE8283F0;
 // System.Collections.Generic.List`1<System.Type>
@@ -354,6 +360,12 @@ struct Tables_t00EE5B4C10D5C99C212098D9B19AA2FE0D3F94E4;
 struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043;
 // System.Threading.Tasks.Task`1<System.Int32>
 struct Task_1_t4C228DE57804012969575431CFF12D57C875552D;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.ValueTuple`2<System.Type,System.String>,System.Runtime.InteropServices.ICustomMarshaler>
+struct ValueCollection_t8E3D9B94B12C94BE5595AF9909EAFA91A098B04F;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Resources.ResourceLocator>
+struct ValueCollection_t17E9E5D8E2F952D63E0221A2494CC60E4D319931;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Resources.ResourceSet>
+struct ValueCollection_t97B28F3C7E3354163673632BF8EB34CCC822FC2B;
 // System.Collections.Generic.Dictionary`2/Entry<System.ValueTuple`2<System.Type,System.String>,System.Runtime.InteropServices.ICustomMarshaler>[]
 struct EntryU5BU5D_tAA51AF2268EF18ADCA61EBAE4367AC449E47071C;
 // System.Collections.Generic.Dictionary`2/Entry<System.String,System.Resources.ResourceLocator>[]
@@ -444,6 +456,8 @@ struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
 struct Assembly_t;
 // System.Reflection.AssemblyCompanyAttribute
 struct AssemblyCompanyAttribute_tB1E99BD8AACD8D0DFD028C96C4B2E4337FAD4673;
+// System.Reflection.AssemblyConfigurationAttribute
+struct AssemblyConfigurationAttribute_t0A68EE0AE862DBFB409961D6DD94BCA8CFE2D95B;
 // System.Reflection.AssemblyCopyrightAttribute
 struct AssemblyCopyrightAttribute_tE509AB280F1465293563388BA462EADB223C062E;
 // System.Reflection.AssemblyDefaultAliasAttribute
@@ -464,6 +478,8 @@ struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2;
 struct AssemblyProductAttribute_t7612F95ED37D3566B8B89A062375A09ABC00CD6A;
 // System.Reflection.AssemblyTitleAttribute
 struct AssemblyTitleAttribute_tD662898804D6F2837455D81BA60B9F75C67636F1;
+// System.Reflection.AssemblyTrademarkAttribute
+struct AssemblyTrademarkAttribute_tFD7599C8542FAD4B472C20F8DBA514DF1A163BE3;
 // System.Runtime.CompilerServices.AsyncStateMachineAttribute
 struct AsyncStateMachineAttribute_tB4999E4DFF510AEB79A44F5D977522F2EA64F0C4;
 // System.Attribute
@@ -610,6 +626,8 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D;
 struct HeaderHandler_t1427BA029494FE4C00958DAD55A5C3667F7419C4;
 // System.Runtime.CompilerServices.IAsyncStateMachine
 struct IAsyncStateMachine_t0680C7F905C553076B552D5A1A6E39E2F0F36AA2;
+// System.Collections.ICollection
+struct ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E;
 // System.Runtime.InteropServices.ICustomMarshaler
 struct ICustomMarshaler_t6D46EF4FA72FD9690553E779A7E65CA1734ED5D2;
 // System.Collections.IDictionary
@@ -1260,6 +1278,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Pointer_Box_m1B42E634ECF60FD53B735D74840B58
 IL2CPP_EXTERN_C const RuntimeMethod* Pointer_System_Runtime_Serialization_ISerializable_GetObjectData_mC90CEF55155EE706BFE86269C503BC2253C473C4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_get_Count_mFD62BF201E123EC70C86F4737734653458878566_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_get_Item_mA899331426FFED30780A3AB856756B6C87458EA6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ResourceEnumerator_Reset_mC456556FAE9573FB2AF6B9235581C6F00F541EB7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ResourceEnumerator_get_Entry_m6F6A82FC2C1613E0BB01281D74D28839B8A26821_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ResourceEnumerator_get_Key_m7B093E62B874103DA7666F3ABFF4B84C5BA36A55_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ResourceEnumerator_get_Value_m929343E8F9F4B593F3FAB8F2968A557D70F7DDE3_RuntimeMethod_var;
@@ -1440,8 +1459,12 @@ struct Dictionary_2_t4CE53C8BCD6558009650AFE413B37A773593BC7B  : public RuntimeO
 	int32_t ____version_5;
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
 	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_t4CC8E3078324CFF9AC51FF4975E187A84147C32F* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_t8E3D9B94B12C94BE5595AF9909EAFA91A098B04F* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
-	RuntimeObject* ____syncRoot_7;
+	RuntimeObject* ____syncRoot_9;
 };
 
 // System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator>
@@ -1461,8 +1484,12 @@ struct Dictionary_2_t4AA150E5587EBF39D6592B59866FCF1AE7848123  : public RuntimeO
 	int32_t ____version_5;
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
 	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_t92027B3C658FDE21AADC2106DC2DF21946DD35E1* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_t17E9E5D8E2F952D63E0221A2494CC60E4D319931* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
-	RuntimeObject* ____syncRoot_7;
+	RuntimeObject* ____syncRoot_9;
 };
 
 // System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet>
@@ -1482,8 +1509,12 @@ struct Dictionary_2_tAC32B254416DD510DC3E7E36B0706A6B031D7A53  : public RuntimeO
 	int32_t ____version_5;
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
 	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_tC2D1627929EE084C92A9997D742C9F98E2B4453C* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_t97B28F3C7E3354163673632BF8EB34CCC822FC2B* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
-	RuntimeObject* ____syncRoot_7;
+	RuntimeObject* ____syncRoot_9;
 };
 
 // System.EmptyArray`1<System.Reflection.CustomAttributeNamedArgument>
@@ -2174,29 +2205,33 @@ struct FileBasedResourceGroveler_tB2F48DBC7A852724D42EB425F81EAEA021529F42  : pu
 struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D  : public RuntimeObject
 {
 	// System.Collections.Hashtable/bucket[] System.Collections.Hashtable::_buckets
-	bucketU5BU5D_t59F1C7BC4EBFE874CA0B3F391EA65717E3C8D587* ____buckets_0;
+	bucketU5BU5D_t59F1C7BC4EBFE874CA0B3F391EA65717E3C8D587* ____buckets_10;
 	// System.Int32 System.Collections.Hashtable::_count
-	int32_t ____count_1;
+	int32_t ____count_11;
 	// System.Int32 System.Collections.Hashtable::_occupancy
-	int32_t ____occupancy_2;
+	int32_t ____occupancy_12;
 	// System.Int32 System.Collections.Hashtable::_loadsize
-	int32_t ____loadsize_3;
+	int32_t ____loadsize_13;
 	// System.Single System.Collections.Hashtable::_loadFactor
-	float ____loadFactor_4;
+	float ____loadFactor_14;
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Hashtable::_version
-	int32_t ____version_5;
+	int32_t ____version_15;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Hashtable::_isWriterInProgress
-	bool ____isWriterInProgress_6;
+	bool ____isWriterInProgress_16;
+	// System.Collections.ICollection System.Collections.Hashtable::_keys
+	RuntimeObject* ____keys_17;
+	// System.Collections.ICollection System.Collections.Hashtable::_values
+	RuntimeObject* ____values_18;
 	// System.Collections.IEqualityComparer System.Collections.Hashtable::_keycomparer
-	RuntimeObject* ____keycomparer_7;
+	RuntimeObject* ____keycomparer_19;
 	// System.Object System.Collections.Hashtable::_syncRoot
-	RuntimeObject* ____syncRoot_8;
+	RuntimeObject* ____syncRoot_20;
 };
 
 struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 {
 	// System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> System.Collections.Hashtable::s_serializationInfoTable
-	ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* ___s_serializationInfoTable_9;
+	ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* ___s_serializationInfoTable_21;
 };
 
 // System.Runtime.Serialization.Formatters.Binary.IntSizedArray
@@ -2770,29 +2805,29 @@ struct SerializationHeaderRecord_t5A2E7839ADC4FF6DB639738985348AF7862C554D  : pu
 struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37  : public RuntimeObject
 {
 	// System.String[] System.Runtime.Serialization.SerializationInfo::m_members
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_members_0;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_members_3;
 	// System.Object[] System.Runtime.Serialization.SerializationInfo::m_data
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_data_1;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_data_4;
 	// System.Type[] System.Runtime.Serialization.SerializationInfo::m_types
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___m_types_2;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___m_types_5;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Serialization.SerializationInfo::m_nameToIndex
-	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___m_nameToIndex_3;
+	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___m_nameToIndex_6;
 	// System.Int32 System.Runtime.Serialization.SerializationInfo::m_currMember
-	int32_t ___m_currMember_4;
+	int32_t ___m_currMember_7;
 	// System.Runtime.Serialization.IFormatterConverter System.Runtime.Serialization.SerializationInfo::m_converter
-	RuntimeObject* ___m_converter_5;
+	RuntimeObject* ___m_converter_8;
 	// System.String System.Runtime.Serialization.SerializationInfo::m_fullTypeName
-	String_t* ___m_fullTypeName_6;
+	String_t* ___m_fullTypeName_9;
 	// System.String System.Runtime.Serialization.SerializationInfo::m_assemName
-	String_t* ___m_assemName_7;
+	String_t* ___m_assemName_10;
 	// System.Type System.Runtime.Serialization.SerializationInfo::objectType
-	Type_t* ___objectType_8;
+	Type_t* ___objectType_11;
 	// System.Boolean System.Runtime.Serialization.SerializationInfo::isFullTypeNameSetExplicit
-	bool ___isFullTypeNameSetExplicit_9;
+	bool ___isFullTypeNameSetExplicit_12;
 	// System.Boolean System.Runtime.Serialization.SerializationInfo::isAssemblyNameSetExplicit
-	bool ___isAssemblyNameSetExplicit_10;
+	bool ___isAssemblyNameSetExplicit_13;
 	// System.Boolean System.Runtime.Serialization.SerializationInfo::requireSameTokenInPartialTrust
-	bool ___requireSameTokenInPartialTrust_11;
+	bool ___requireSameTokenInPartialTrust_14;
 };
 
 // System.Runtime.Serialization.Formatters.Binary.SizedArray
@@ -3196,6 +3231,13 @@ struct AssemblyCompanyAttribute_tB1E99BD8AACD8D0DFD028C96C4B2E4337FAD4673  : pub
 	String_t* ___U3CCompanyU3Ek__BackingField_0;
 };
 
+// System.Reflection.AssemblyConfigurationAttribute
+struct AssemblyConfigurationAttribute_t0A68EE0AE862DBFB409961D6DD94BCA8CFE2D95B  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String System.Reflection.AssemblyConfigurationAttribute::<Configuration>k__BackingField
+	String_t* ___U3CConfigurationU3Ek__BackingField_0;
+};
+
 // System.Reflection.AssemblyCopyrightAttribute
 struct AssemblyCopyrightAttribute_tE509AB280F1465293563388BA462EADB223C062E  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -3257,6 +3299,13 @@ struct AssemblyTitleAttribute_tD662898804D6F2837455D81BA60B9F75C67636F1  : publi
 {
 	// System.String System.Reflection.AssemblyTitleAttribute::<Title>k__BackingField
 	String_t* ___U3CTitleU3Ek__BackingField_0;
+};
+
+// System.Reflection.AssemblyTrademarkAttribute
+struct AssemblyTrademarkAttribute_tFD7599C8542FAD4B472C20F8DBA514DF1A163BE3  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String System.Reflection.AssemblyTrademarkAttribute::<Trademark>k__BackingField
+	String_t* ___U3CTrademarkU3Ek__BackingField_0;
 };
 
 // System.Runtime.CompilerServices.AsyncMethodBuilderCore
@@ -3445,64 +3494,64 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F
 		struct
 		{
 			// System.Int32 System.Decimal::flags
-			int32_t ___flags_5;
+			int32_t ___flags_8;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			int32_t ___flags_5_forAlignmentOnly;
+			int32_t ___flags_8_forAlignmentOnly;
 		};
 		#pragma pack(push, tp, 1)
 		struct
 		{
-			char ___hi_6_OffsetPadding[4];
+			char ___hi_9_OffsetPadding[4];
 			// System.Int32 System.Decimal::hi
-			int32_t ___hi_6;
+			int32_t ___hi_9;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			char ___hi_6_OffsetPadding_forAlignmentOnly[4];
-			int32_t ___hi_6_forAlignmentOnly;
+			char ___hi_9_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___hi_9_forAlignmentOnly;
 		};
 		#pragma pack(push, tp, 1)
 		struct
 		{
-			char ___lo_7_OffsetPadding[8];
+			char ___lo_10_OffsetPadding[8];
 			// System.Int32 System.Decimal::lo
-			int32_t ___lo_7;
+			int32_t ___lo_10;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			char ___lo_7_OffsetPadding_forAlignmentOnly[8];
-			int32_t ___lo_7_forAlignmentOnly;
+			char ___lo_10_OffsetPadding_forAlignmentOnly[8];
+			int32_t ___lo_10_forAlignmentOnly;
 		};
 		#pragma pack(push, tp, 1)
 		struct
 		{
-			char ___mid_8_OffsetPadding[12];
+			char ___mid_11_OffsetPadding[12];
 			// System.Int32 System.Decimal::mid
-			int32_t ___mid_8;
+			int32_t ___mid_11;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			char ___mid_8_OffsetPadding_forAlignmentOnly[12];
-			int32_t ___mid_8_forAlignmentOnly;
+			char ___mid_11_OffsetPadding_forAlignmentOnly[12];
+			int32_t ___mid_11_forAlignmentOnly;
 		};
 		#pragma pack(push, tp, 1)
 		struct
 		{
-			char ___ulomidLE_9_OffsetPadding[8];
+			char ___ulomidLE_12_OffsetPadding[8];
 			// System.UInt64 System.Decimal::ulomidLE
-			uint64_t ___ulomidLE_9;
+			uint64_t ___ulomidLE_12;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			char ___ulomidLE_9_OffsetPadding_forAlignmentOnly[8];
-			uint64_t ___ulomidLE_9_forAlignmentOnly;
+			char ___ulomidLE_12_OffsetPadding_forAlignmentOnly[8];
+			uint64_t ___ulomidLE_12_forAlignmentOnly;
 		};
 	};
 };
@@ -3510,15 +3559,15 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F
 struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
 {
 	// System.Decimal System.Decimal::Zero
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___Zero_0;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___Zero_3;
 	// System.Decimal System.Decimal::One
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___One_1;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___One_4;
 	// System.Decimal System.Decimal::MinusOne
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinusOne_2;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinusOne_5;
 	// System.Decimal System.Decimal::MaxValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MaxValue_3;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MaxValue_6;
 	// System.Decimal System.Decimal::MinValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinValue_4;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinValue_7;
 };
 
 // System.Runtime.CompilerServices.DefaultDependencyAttribute
@@ -4029,17 +4078,17 @@ struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_marshaled_com
 struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
 {
 	// System.Int64 System.TimeSpan::_ticks
-	int64_t ____ticks_3;
+	int64_t ____ticks_22;
 };
 
 struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
 {
 	// System.TimeSpan System.TimeSpan::Zero
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_0;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
 	// System.TimeSpan System.TimeSpan::MaxValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_1;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
 	// System.TimeSpan System.TimeSpan::MinValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_2;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
 };
 
 // System.Runtime.CompilerServices.TupleElementNamesAttribute
@@ -24435,6 +24484,32 @@ IL_0052:
 		return L_12;
 	}
 }
+// System.Void System.Resources.ResourceReader/ResourceEnumerator::Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceEnumerator_Reset_mC456556FAE9573FB2AF6B9235581C6F00F541EB7 (ResourceEnumerator_t6BAC4B31C7448C9868FB43C5899684520F2DB085* __this, const RuntimeMethod* method) 
+{
+	{
+		ResourceReader_t681F002277727FF2F8848B3F14C2ACD331171930* L_0 = __this->____reader_0;
+		Dictionary_2_t4AA150E5587EBF39D6592B59866FCF1AE7848123* L_1 = L_0->____resCache_1;
+		if (L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = Environment_GetResourceString_mA14837A574D24E2F2D120D7B5514E849E9986058(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBABE3225825740D4B38E1B426129BEB173526DB0)), NULL);
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_3 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_3, L_2, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ResourceEnumerator_Reset_mC456556FAE9573FB2AF6B9235581C6F00F541EB7_RuntimeMethod_var)));
+	}
+
+IL_001d:
+	{
+		__this->____currentIsValid_1 = (bool)0;
+		__this->____currentName_2 = (-1);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -25000,6 +25075,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyCompanyAttribute__ctor_m5FAB94A5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void System.Reflection.AssemblyConfigurationAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyConfigurationAttribute__ctor_mA81BF242FD2647374B36EEF689F5586B112FBD13 (AssemblyConfigurationAttribute_t0A68EE0AE862DBFB409961D6DD94BCA8CFE2D95B* __this, String_t* ___configuration0, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___configuration0;
+		__this->___U3CConfigurationU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConfigurationU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void System.Reflection.AssemblyCopyrightAttribute::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyCopyrightAttribute__ctor_m8E5E832C1B917B552ED1350D366AD210610EBBDF (AssemblyCopyrightAttribute_tE509AB280F1465293563388BA462EADB223C062E* __this, String_t* ___copyright0, const RuntimeMethod* method) 
 {
@@ -25173,6 +25267,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyTitleAttribute__ctor_mC70597EA25
 		String_t* L_0 = ___title0;
 		__this->___U3CTitleU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTitleU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.AssemblyTrademarkAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyTrademarkAttribute__ctor_m3383FB67CA60DD87988D0F38DC8779794543FD90 (AssemblyTrademarkAttribute_tFD7599C8542FAD4B472C20F8DBA514DF1A163BE3* __this, String_t* ___trademark0, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___trademark0;
+		__this->___U3CTrademarkU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrademarkU3Ek__BackingField_0), (void*)L_0);
 		return;
 	}
 }
@@ -27426,7 +27539,7 @@ IL_0010:
 		Type_t* L_8 = L_4;
 		bool L_9 = ___serialization2;
 		String_t* L_10;
-		L_10 = VirtualFuncInvoker1< String_t*, bool >::Invoke(116 /* System.String System.Type::FormatTypeName(System.Boolean) */, L_8, L_9);
+		L_10 = VirtualFuncInvoker1< String_t*, bool >::Invoke(119 /* System.String System.Type::FormatTypeName(System.Boolean) */, L_8, L_9);
 		V_3 = L_10;
 		bool L_11;
 		L_11 = Type_get_IsByRef_mA417B3C05E39BCF8F21A2B6437A1B41D3BE638A4(L_8, NULL);
@@ -29614,7 +29727,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TimeSpan__ctor_m061B122FA11D
 {
 	{
 		int64_t L_0 = ___ticks0;
-		__this->____ticks_3 = L_0;
+		__this->____ticks_22 = L_0;
 		return;
 	}
 }
